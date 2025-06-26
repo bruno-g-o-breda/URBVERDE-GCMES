@@ -1,6 +1,5 @@
 <!-- urbverde-ui/src/pages/ContactPage.vue -->
 <template>
-  <TawkTo />
 
   <InstitutionalLayout
     active-item="contato"
@@ -17,7 +16,6 @@
 <script>
 import InstitutionalLayout from '@/layouts/InstitutionialLayout.vue';
 import InstitutionalContactWrapper from '@/components/institutional_pages/InstitutionalContactWrapper.vue';
-import TawkTo from '@/components/homepage/TawkTo.vue';
 import { useHead } from '@vueuse/head';
 
 export default {
@@ -25,7 +23,6 @@ export default {
   components: {
     InstitutionalLayout,
     InstitutionalContactWrapper,
-    TawkTo,
   },
 
   setup() {

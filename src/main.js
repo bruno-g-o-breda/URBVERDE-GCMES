@@ -10,6 +10,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import { createHead } from '@vueuse/head';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
+import { initTawkTo } from './utils/tawkTo';
 import axios from 'axios';
 
 import App from './App.vue';
@@ -36,6 +37,7 @@ app.use(head);
 app.use(router);
 app.use(pinia);
 app.mount('#app');
+initTawkTo(); 
 // });
 
 window.addEventListener('load', () => {

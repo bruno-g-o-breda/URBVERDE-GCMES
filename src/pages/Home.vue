@@ -1,7 +1,6 @@
 <!-- urbverde-ui/src/pages/Home.vue -->
 <template>
   <div class="homepage" role="document">
-    <TawkTo />
 
     <!-- Navbar -->
     <header class="no-transform"
@@ -453,7 +452,6 @@ import NavbarHomepage from '@/components/navbar/NavbarHomepage.vue';
 import PrimaryButton from '@/components/buttons/PrimaryButton.vue';
 import UrbVerdeEducaTopics from '@/components/homepage/UrbverdeEducaTopics.vue';
 import UrbVerdeFooter from '@/components/homepage/UrbVerdeFooter.vue';
-import TawkTo from '@/components/homepage/TawkTo.vue';
 import CardComments from '@/components/homepage/CardComments.vue';
 import HomeAwards from '@/components/homepage/HomeAwards.vue';
 import HomeProduct from '@/components/homepage/HomeProduct.vue';
@@ -479,7 +477,6 @@ export default {
     PrimaryButton,
     UrbVerdeEducaTopics,
     UrbVerdeFooter,
-    TawkTo,
     CardComments,
     HomeAwards,
     HomeProduct,
