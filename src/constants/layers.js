@@ -1,4 +1,4 @@
-// urbverde-ui/src/constants/layers.js
+// URBVERDE-GCMES/src/constants/layers.js
 
 // Declare allowed years
 const VECTOR_YEARS = [2016, 2017, 2018, 2019, 2020, 2021];

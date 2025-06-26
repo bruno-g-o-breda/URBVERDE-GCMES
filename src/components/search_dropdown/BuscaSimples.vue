@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/search_dropdown/BuscaSimples.vue -->
+<!-- URBVERDE-GCMES/src/components/search_dropdown/BuscaSimples.vue -->
 <template>
   <GetUserLocation @location-updated="updateLocationData" @location-error="handleLocationFailure" />
   <div class="search-wrapper">

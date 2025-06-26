@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/modal/modalWaitList.vue -->
+<!-- URBVERDE-GCMES/src/components/modal/modalWaitList.vue -->
 <template>
   <modalBootstrap
     ref="modalRef"

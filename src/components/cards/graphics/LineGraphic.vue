@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/graphics/LineGraphic.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/graphics/LineGraphic.vue -->
 <!-- LineGraphic.vue -->
 <template>
   <div class="line-chart-wrapper" ref="chartContainer">

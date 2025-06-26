@@ -1,4 +1,4 @@
-// urbverde-ui/vite.config.js
+// URBVERDE-GCMES/vite.config.js
 import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
