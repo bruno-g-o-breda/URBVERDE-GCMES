@@ -116,6 +116,19 @@ export default {
       const sum = validValues.reduce((acc, val) => acc + val, 0);
 
       return sum / validValues.length;
+    },
+    chartDependencies() {
+      return {
+        xData: this.xData,
+        yData: this.yData,
+        suggestYScale: this.suggestYScale,
+        paddingFactor: this.paddingFactor,
+        showAverage: this.showAverage,
+        averageLineColor: this.averageLineColor,
+        averageLineDash: this.averageLineDash,
+        averageLineWidth: this.averageLineWidth,
+        averageLabel: this.averageLabel,
+      };
     }
   },
   mounted() {
@@ -233,115 +246,15 @@ export default {
     },
 
     updateChart() {
-      if (!this.chart) {return;}
+    if (!this.chart) { return; }
 
-      // Update main dataset
-      this.chart.data.labels = this.xData;
-      this.chart.data.datasets[0].data = this.yData;
+    this._updateCoreData();
+    this._updateYAxisScale();
+    this._updateOrRemoveAverageLine();
 
-      // Update y-axis scale when data changes
-      if (this.suggestYScale) {
-        this.chart.options.scales.y.min = this.yAxisRange.min;
-        this.chart.options.scales.y.max = this.yAxisRange.max;
-      }
+    this.chart.update();
+  }
 
-      // Update or add average line
-      if (this.showAverage) {
-        const avgValue = this.historicalAverage;
-
-        // Update annotation if it exists
-        if (this.chart.options.plugins && this.chart.options.plugins.annotation) {
-          if (this.chart.options.plugins.annotation.annotations.averageLine) {
-            this.chart.options.plugins.annotation.annotations.averageLine.yMin = avgValue;
-            this.chart.options.plugins.annotation.annotations.averageLine.yMax = avgValue;
-            this.chart.options.plugins.annotation.annotations.averageLine.label.content =
-                `${this.averageLabel}: ${avgValue.toFixed(1)}`;
-          } else {
-            // Create annotation if it doesn't exist
-            this.chart.options.plugins.annotation.annotations.averageLine = {
-              type: 'line',
-              yMin: avgValue,
-              yMax: avgValue,
-              borderColor: this.averageLineColor,
-              borderWidth: this.averageLineWidth,
-              borderDash: this.averageLineDash,
-              label: {
-                display: true,
-                content: `${this.averageLabel}: ${avgValue.toFixed(1)}`,
-                position: 'end',
-                backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                color: this.averageLineColor,
-                font: {
-                  weight: 'bold'
-                },
-                padding: 4
-              }
-            };
-          }
-        } else {
-          // If annotation plugin wasn't configured, reconfigure the chart
-          if (!this.chart.options.plugins) {
-            this.chart.options.plugins = {};
-          }
-
-          this.chart.options.plugins.annotation = {
-            annotations: {
-              averageLine: {
-                type: 'line',
-                yMin: avgValue,
-                yMax: avgValue,
-                borderColor: this.averageLineColor,
-                borderWidth: this.averageLineWidth,
-                borderDash: this.averageLineDash,
-                label: {
-                  display: true,
-                  content: `${this.averageLabel}: ${avgValue.toFixed(1)}`,
-                  position: 'end',
-                  backgroundColor: 'rgba(255, 255, 255, 0.8)',
-                  color: this.averageLineColor,
-                  font: {
-                    weight: 'bold'
-                  },
-                  padding: 4
-                }
-              }
-            }
-          };
-        }
-
-        // Update or add dataset for the legend
-        if (this.chart.data.datasets.length > 1) {
-          // Update existing average line dataset
-          this.chart.data.datasets[1].data = Array(this.xData.length).fill(avgValue);
-        } else {
-          // Add new average line dataset
-          this.chart.data.datasets.push({
-            label: this.averageLabel,
-            data: Array(this.xData.length).fill(avgValue),
-            borderColor: this.averageLineColor,
-            borderDash: this.averageLineDash,
-            borderWidth: this.averageLineWidth,
-            pointRadius: 0,
-            fill: false,
-            tension: 0
-          });
-        }
-      } else {
-        // Remove average line if it exists and showAverage is false
-        if (this.chart.data.datasets.length > 1) {
-          this.chart.data.datasets.splice(1, 1);
-        }
-
-        // Remove annotation if it exists
-        if (this.chart.options.plugins &&
-              this.chart.options.plugins.annotation &&
-              this.chart.options.plugins.annotation.annotations.averageLine) {
-          delete this.chart.options.plugins.annotation.annotations.averageLine;
-        }
-      }
-
-      this.chart.update();
-    }
   },
   watch: {
     xData() {
@@ -371,6 +284,12 @@ export default {
     averageLabel() {
       this.updateChart();
     }
+    chartDependencies: {
+    handler() {
+      this.updateChart();
+    },
+    deep: true
+    },
   },
   beforeUnmount() {
     if (this.chart) {
