@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/vegetation/rankSection/RankVegSection.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/vegetation/rankSection/RankVegSection.vue -->
 <template>
   <div class="rank-section">
     <RankingCard

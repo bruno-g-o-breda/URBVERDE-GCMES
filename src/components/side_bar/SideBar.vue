@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/side_bar/SideBar.vue -->
+<!-- URBVERDE-GCMES/src/components/side_bar/SideBar.vue -->
 <template>
 
   <aside>

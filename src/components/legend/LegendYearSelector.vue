@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/legend/LegendYearSelector.vue -->
+<!-- URBVERDE-GCMES/src/components/legend/LegendYearSelector.vue -->
 <template>
   <!-- Track hover over the entire selector -->
   <div class="section-container" @mouseenter="isHovered = true" @mouseleave="isHovered = false">

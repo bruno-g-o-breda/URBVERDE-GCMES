@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/FirstSectionCard.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/FirstSectionCard.vue -->
 <template>
   <CardBase
     class="first-card"

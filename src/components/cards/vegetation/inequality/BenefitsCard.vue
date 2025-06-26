@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/vegetation/inequality/BenefitsCard.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/vegetation/inequality/BenefitsCard.vue -->
 <template>
 
   <!-- Desktop Version -->

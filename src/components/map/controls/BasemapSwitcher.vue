@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/map/controls/BasemapSwitcher.vue -->
+<!-- URBVERDE-GCMES/src/components/map/controls/BasemapSwitcher.vue -->
 <template>
   <div class="map-style-switcher" @click="toggleSatellite">
     <div class="map-style-wrapper">

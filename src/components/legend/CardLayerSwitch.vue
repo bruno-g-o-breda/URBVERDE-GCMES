@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/legend/CardLayerSwitch.vue -->
+<!-- URBVERDE-GCMES/src/components/legend/CardLayerSwitch.vue -->
 <template>
   <div
     class="wrapper-grip"

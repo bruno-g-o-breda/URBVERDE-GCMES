@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/weather/ranking/RankSection.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/weather/ranking/RankSection.vue -->
 <template>
   <div class="rank-section">
     <RankingCard

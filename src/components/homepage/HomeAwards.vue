@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/homepage/HomeAwards.vue -->
+<!-- URBVERDE-GCMES/src/components/homepage/HomeAwards.vue -->
 <template>
   <div class="institutes-awards">
     <div

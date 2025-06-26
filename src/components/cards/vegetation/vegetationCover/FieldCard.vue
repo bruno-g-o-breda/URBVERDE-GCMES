@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/vegetation/vegetationCover/FieldCard.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/vegetation/vegetationCover/FieldCard.vue -->
 <template>
   <div class="field-card-wrapper">
     <CardBase
