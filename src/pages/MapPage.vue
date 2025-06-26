@@ -377,12 +377,7 @@ onUnmounted(() => {
 // Verify sidebar toggle conditions in mobile
 const shouldAllowSidebarToggle = computed(() => {
   const isMobile = smallerThan('tablet');
-
-  if (isMobile && !hasMunicipality.value) {
-    return false;
-  }
-
-  return true;
+  return !(isMobile && !hasMunicipality.value);
 });
 
 // Configuração das meta tags de SEO
