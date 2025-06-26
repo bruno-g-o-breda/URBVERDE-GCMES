@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/institutional_pages/InstitutionalContactWrapper.vue -->
+<!-- URBVERDE-GCMES/src/components/institutional_pages/InstitutionalContactWrapper.vue -->
 <template>
   <div class="contacts-grid">
     <InstitutionalContact

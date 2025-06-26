@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/pages/ContactPage.vue -->
+<!-- URBVERDE-GCMES/src/pages/ContactPage.vue -->
 <template>
 
   <InstitutionalLayout

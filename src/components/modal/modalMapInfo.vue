@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/modal/modalMapInfo.vue -->
+<!-- URBVERDE-GCMES/src/components/modal/modalMapInfo.vue -->
 <template>
   <teleport to="body">
     <modalBootstrap

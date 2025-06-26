@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/vegetation/seeMore/SeeMoreVegSection.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/vegetation/seeMore/SeeMoreVegSection.vue -->
 <template>
   <div class="content">
     <div class="see-more-cards">

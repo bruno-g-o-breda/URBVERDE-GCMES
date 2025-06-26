@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/side_bar/buttons/LogoButton.vue -->
+<!-- URBVERDE-GCMES/src/components/side_bar/buttons/LogoButton.vue -->
 <template>
   <div class="logo-button" @click="resetStore">
     <LogoRouterLink />
