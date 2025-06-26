@@ -1,3 +1,4 @@
+// URBVERDE-GCMES/src/utils/tawkTo.js
 export function initTawkTo() {
   // Evita múltiplas injeções do mesmo script
   if (document.getElementById('tawkto-script')) {
