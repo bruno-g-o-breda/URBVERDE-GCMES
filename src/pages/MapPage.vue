@@ -377,6 +377,7 @@ onUnmounted(() => {
 // Verify sidebar toggle conditions in mobile
 const shouldAllowSidebarToggle = computed(() => {
   const isMobile = smallerThan('tablet');
+  
   return !(isMobile && !hasMunicipality.value);
 });
 

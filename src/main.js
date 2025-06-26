@@ -37,8 +37,7 @@ app.use(head);
 app.use(router);
 app.use(pinia);
 app.mount('#app');
-initTawkTo(); 
-// });
+initTawkTo();
 
 window.addEventListener('load', () => {
   const loadTime = performance.now();

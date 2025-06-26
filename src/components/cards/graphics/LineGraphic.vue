@@ -284,6 +284,7 @@ export default {
     averageLabel() {
       this.updateChart();
     }
+    ,
     chartDependencies: {
     handler() {
       this.updateChart();
