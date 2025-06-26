@@ -1,4 +1,4 @@
-// urbverde-ui/public/mockServiceWorker.js
+// URBVERDE-GCMES/public/mockServiceWorker.js
 // /* eslint-disable */
 // /* tslint:disable */
 

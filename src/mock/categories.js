@@ -1,4 +1,4 @@
-// urbverde-ui/src/mock/categories.js
+// URBVERDE-GCMES/src/mock/categories.js
 
 // export const categories = [
 //     {

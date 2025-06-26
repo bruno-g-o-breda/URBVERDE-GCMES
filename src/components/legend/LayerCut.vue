@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/legend/LayerCut.vue -->
+<!-- URBVERDE-GCMES/src/components/legend/LayerCut.vue -->
 <template>
   <div class="layer-cut-container">
     <div class="layer-cut" @click.stop="togglePopover">

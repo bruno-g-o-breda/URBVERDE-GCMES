@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/pages/AboutUs.vue -->
+<!-- URBVERDE-GCMES/src/pages/AboutUs.vue -->
 <template>
   <TawkTo />
   <InstitutionalLayout

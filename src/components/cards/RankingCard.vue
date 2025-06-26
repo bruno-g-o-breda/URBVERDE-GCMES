@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/RankingCard.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/RankingCard.vue -->
 <template>
   <CardBase>
     <div class="rank-card-container">

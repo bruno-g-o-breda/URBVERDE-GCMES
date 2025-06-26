@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/parks/parksandSquaresSection/ParksBenefits.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/parks/parksandSquaresSection/ParksBenefits.vue -->
 <template>
 
   <!-- Desktop Version -->

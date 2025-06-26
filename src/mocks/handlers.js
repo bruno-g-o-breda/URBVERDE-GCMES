@@ -1,4 +1,4 @@
-// urbverde-ui/src/mocks/handlers.js
+// URBVERDE-GCMES/src/mocks/handlers.js
 // import { http, HttpResponse } from 'msw';
 // import cities from './responses/cities.json';
 // import categoriesResponse from './responses/categories.json';

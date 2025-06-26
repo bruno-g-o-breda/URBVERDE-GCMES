@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/homepage/HomeAwards.vue -->
+<!-- URBVERDE-GCMES/src/components/homepage/HomeAwards.vue -->
 <template>
   <div class="institutes-awards">
     <div
@@ -8,7 +8,7 @@
     >
       <img
         src="@/assets/images/homepage/awards-1.svg"
-        alt="Imagem de folha de premiação da UrbVerde"
+        alt="Folha de premiação da UrbVerde"
         loading="lazy"
       />
 
@@ -26,7 +26,7 @@
 
       <img
         src="@/assets/images/homepage/awards-2.svg"
-        alt="Imagem de folha de premiação da UrbVerde"
+        alt="Folha de premiação da UrbVerde"
         loading="lazy"
       />
     </div>

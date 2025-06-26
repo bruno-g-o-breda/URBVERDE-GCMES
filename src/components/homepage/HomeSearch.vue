@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/homepage/HomeSearch.vue -->
+<!-- URBVERDE-GCMES/src/components/homepage/HomeSearch.vue -->
 <template>
   <div class="search">
     <div class="search-button shadow">

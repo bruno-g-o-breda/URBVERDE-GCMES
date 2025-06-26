@@ -1,4 +1,4 @@
-// urbverde-ui/src/stores/layersStore.js
+// URBVERDE-GCMES/src/stores/layersStore.js
 import { defineStore } from 'pinia';
 
 export const useLayersStore = defineStore('layersStore', {

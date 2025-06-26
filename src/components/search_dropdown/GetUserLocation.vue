@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/search_dropdown/GetUserLocation.vue -->
+<!-- URBVERDE-GCMES/src/components/search_dropdown/GetUserLocation.vue -->
 <template>
   <div></div>
 </template>
