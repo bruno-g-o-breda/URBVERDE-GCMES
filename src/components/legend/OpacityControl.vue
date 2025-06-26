@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/legend/OpacityControl.vue -->
+<!-- URBVERDE-GCMES/src/components/legend/OpacityControl.vue -->
 <template>
   <div class="controls-section"
        @click="handleControlsClick"

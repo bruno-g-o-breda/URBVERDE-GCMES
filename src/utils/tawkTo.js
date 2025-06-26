@@ -1,3 +1,4 @@
+// URBVERDE-GCMES/src/utils/tawkTo.js
 /* Este módulo injeta dinamicamente o script de chat do Tawk.to no DOM.*/
 export function initTawkTo() {
   // Evita múltiplas injeções do mesmo script

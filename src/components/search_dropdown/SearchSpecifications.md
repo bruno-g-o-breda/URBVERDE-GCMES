@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/search_dropdown/SearchSpecifications.md -->
+<!-- URBVERDE-GCMES/src/components/search_dropdown/SearchSpecifications.md -->
 # GetUserLocation Component
 
 ## Purpose

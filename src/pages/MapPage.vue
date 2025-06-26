@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/pages/MapPage.vue -->
+<!-- URBVERDE-GCMES/src/pages/MapPage.vue -->
 <template>
   <div class="layout-container">
 

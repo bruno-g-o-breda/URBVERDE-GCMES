@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/pages/WorkTogether.vue -->
+<!-- URBVERDE-GCMES/src/pages/WorkTogether.vue -->
 <template>
   <InstitutionalLayout
     active-item="parceiro"
