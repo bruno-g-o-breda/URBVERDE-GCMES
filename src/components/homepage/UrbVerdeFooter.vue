@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/homepage/UrbVerdeFooter.vue -->
+<!-- URBVERDE-GCMES/src/components/homepage/UrbVerdeFooter.vue -->
 <template>
   <div class="footer">
     <div class="newsletter">

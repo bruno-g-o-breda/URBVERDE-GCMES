@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/pages/Home.vue -->
+<!-- URBVERDE-GCMES/src/pages/Home.vue -->
 <template>
   <div class="homepage" role="document">
     <TawkTo />

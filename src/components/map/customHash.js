@@ -1,4 +1,4 @@
-// urbverde-ui/src/components/map/customHash.js
+// URBVERDE-GCMES/src/components/map/customHash.js
 class CustomHash {
   constructor() {
     this._onHashChange = this._onHashChange.bind(this);

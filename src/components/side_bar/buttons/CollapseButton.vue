@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/side_bar/buttons/CollapseButton.vue -->
+<!-- URBVERDE-GCMES/src/components/side_bar/buttons/CollapseButton.vue -->
 <template>
   <div class="collapse-button-container">
     <button class="collapse-button" @click="toggleSidebar">

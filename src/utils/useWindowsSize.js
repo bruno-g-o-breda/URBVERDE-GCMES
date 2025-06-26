@@ -1,4 +1,4 @@
-// urbverde-ui/src/utils/useWindowsSize.js
+// URBVERDE-GCMES/src/utils/useWindowsSize.js
 // src/utils/useWindowSize.js
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 

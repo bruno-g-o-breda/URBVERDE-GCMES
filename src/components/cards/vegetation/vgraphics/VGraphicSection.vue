@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/vegetation/vgraphics/VGraphicSection.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/vegetation/vgraphics/VGraphicSection.vue -->
 <template>
   <div class="third-row">
     <div class="cards-container">

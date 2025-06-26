@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/weather/YearPicker.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/weather/YearPicker.vue -->
 <template>
   <div class="date-picker">
     <div class="input-wrapper">

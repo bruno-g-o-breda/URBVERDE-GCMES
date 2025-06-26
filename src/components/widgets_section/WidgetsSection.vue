@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/widgets_section/WidgetsSection.vue -->
+<!-- URBVERDE-GCMES/src/components/widgets_section/WidgetsSection.vue -->
 <template>
   <div class="widgets-section">
     <div v-if="sections.length === 0" class="empty-state-wrapper">

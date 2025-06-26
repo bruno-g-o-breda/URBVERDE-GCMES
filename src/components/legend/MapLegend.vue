@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/legend/MapLegend.vue -->
+<!-- URBVERDE-GCMES/src/components/legend/MapLegend.vue -->
 <template>
   <div class="legend-wrapper">
     <!-- Legend Header -->

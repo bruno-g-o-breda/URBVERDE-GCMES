@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/SecondSectionCard.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/SecondSectionCard.vue -->
 <template>
   <CardBase
     v-for="(item, index) in data"
