@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/map/mapGenerator.vue -->
+<!-- URBVERDE-GCMES/src/components/map/mapGenerator.vue -->
 <template>
   <div ref="mapContainer" class="map-container">
     <!-- Loading State -->

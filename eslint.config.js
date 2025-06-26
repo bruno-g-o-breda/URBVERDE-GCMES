@@ -1,4 +1,4 @@
-// urbverde-ui/eslint.config.js
+// URBVERDE-GCMES/eslint.config.js
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import pluginVue from 'eslint-plugin-vue';

@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/cards/weather/heat/TipsCard.vue -->
+<!-- URBVERDE-GCMES/src/components/cards/weather/heat/TipsCard.vue -->
 <template>
 
   <!-- Desktop Version -->

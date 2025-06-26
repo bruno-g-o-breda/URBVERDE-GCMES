@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/modal/modalShare.vue -->
+<!-- URBVERDE-GCMES/src/components/modal/modalShare.vue -->
 <template>
   <teleport to="body"> <!-- Teleporta o modal para o centro do body -->
     <modalBootstrap

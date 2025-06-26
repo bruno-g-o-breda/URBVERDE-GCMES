@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/homepage/HomeProduct.vue -->
+<!-- URBVERDE-GCMES/src/components/homepage/HomeProduct.vue -->
 <template>
 
   <!-- Desktop version -->

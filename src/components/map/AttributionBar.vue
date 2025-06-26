@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/map/AttributionBar.vue -->
+<!-- URBVERDE-GCMES/src/components/map/AttributionBar.vue -->
 <template>
   <div class="attribution-bar">
     <div class="scale-content">

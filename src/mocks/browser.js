@@ -1,4 +1,4 @@
-// urbverde-ui/src/mocks/browser.js
+// URBVERDE-GCMES/src/mocks/browser.js
 // import { setupWorker } from 'msw/browser';
 // import { handlers } from './handlers';
 

@@ -1,4 +1,4 @@
-<!-- urbverde-ui/src/components/icons/IconComponent.vue -->
+<!-- URBVERDE-GCMES/src/components/icons/IconComponent.vue -->
 <template>
   <i
     v-if="isBootstrapIcon"
